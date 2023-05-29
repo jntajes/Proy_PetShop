@@ -4,51 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilos.css" />
     <title>PetShop</title>
   </head>
   <body>
     <header>
-      <p>Grandes ofertas en comederos</p>
-      <ul>
-        <li>Español</li>
-        <li>Arg</li>
-      </ul>
-      <h1>
-        <img src="img/Logo.png" alt="Logo Front Cat & Dog" />
-      </h1>
-      <nav>
-        <ul>
-          <li>Categorías</li>
-          <li>Pets</li>
-          <li>Nosotros</li>
-          <li>Contactenos</li>
+      <section class="header-container-top">
+        <p>Grandes ofertas en comederos</p>
+        <ul class="header-lista">
+          <li>Español</li>
+          <li>$ARG</li>
         </ul>
-      </nav>
+      </section>
+      <section class="header-container-bottom">
+        <p class="logo-base">
+          <img src="img/Cat.png" alt="gato" />
+          <span class="logo-first">Front</span>
+          Cat&Dog
+          <img src="img/Dog.png" alt="perro" />
+        </p>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <img src="img/pawprint 1.png" alt="" /><span>Categorías</span>
+            </li>
+            <li><img src="img/pawprint 1.png" alt="" /><span>Pets</span></li>
+            <li>
+              <img src="img/pawprint 1.png" alt="" /><span>Nosotros</span>
+            </li>
+            <li>
+              <img src="img/pawprint 1.png" alt="" /><span>Contactanos</span>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
     <main>
-        <section>
-            <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Bowl alimento mascota">
-            <p>¡Es un placertenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
-        </section>
-        <section>
-            <img src="img/pawprint 1.png" alt="Patita">
-            <h2>Productos Destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
-            <img src="img/churrasquito.png" alt="Churrasquito">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-            <img src="img/comedero.png" alt="Comedero">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-            <img src="img/churrasquito.png" alt="Churrasquito">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-        </section>
+      <section class="banner">
+        <h1>¡Es un placertenerte aquí!</h1>
+        <article>
+          <p>¡Comederos en descuento!</p>
+          <a href="#">COMEDEROS</a>
+        </article>
+      </section>
+      <section class="productos">
+        <h2>Productos Destacados</h2>
+        <p>Comederos - Accesorios - Comida</p>
+        <article>
+          <img src="img/churrasquito.png" alt="Churrasquito" />
+          <p>Juguete Churrasquito</p>
+          <p class="precio">$150</p>
+          <img src="img/comedero.png" alt="Comedero" />
+          <p>Comedero</p>
+          <p class="precio">$150</p>
+          <img src="img/Huesito.png" alt="Huesito" />
+          <p>Juguete Huesito</p>
+          <p class="precio">$150</p>
+        </article>
+      </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+      <article>
+        <img src="./img/Icono-ubi.png" alt="ubicacion" />
+        <p>Localidad</p>
+        <span>Calle - provincia</span>
+      </article>
+      <article>
+        <img src="./img/Icono-tel.png" alt="telefono" />
+        <p>Teléfono</p>
+        <span>Número de teléfono</span>
+      </article>
+      <article>
+        <img src="./img/Icono-mail.png" alt="email" />
+        <p>Correo electrónico</p>
+        <span>Dirección de correo</span>
+      </article>
+      <p class="logo-footer">
+        <img src="img/Cat.png" alt="gato" />
+        <span class="logo-second">Front</span>
+        "Cat&Dog"
+        <img src="img/Dog.png" alt="perro" />
+      </p>
     </footer>
+    <div class="final">
+      <p>Todos los derechos reservados Front End</p>
+    </div>
   </body>
 </html>
